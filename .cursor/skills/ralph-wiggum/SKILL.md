@@ -19,7 +19,7 @@ If `.agent/tests.json` does not exist:
 {
   "feature": "Description of what user wants to build",
   "iteration": 0,
-  "maxIterations": 10,
+  "maxIterations": 100000,
   "tests": [
     {
       "id": 1,
@@ -31,7 +31,7 @@ If `.agent/tests.json` does not exist:
 }
 ```
 
-Create 5-10 meaningful functional tests that verify the feature works correctly.
+Create as many meaningful functional tests that verify the feature works correctly.
 
 ## Phase 2: Build and Verify
 

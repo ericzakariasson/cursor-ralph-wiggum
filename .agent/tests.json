@@ -1,0 +1,57 @@
+{
+  "feature": "Linear Clone - A sleek project management app with issues, status workflow, and modern UI",
+  "iteration": 1,
+  "maxIterations": 10,
+  "tests": [
+    {
+      "id": 1,
+      "description": "App loads with a clean, modern UI similar to Linear's dark theme aesthetic",
+      "passed": true
+    },
+    {
+      "id": 2,
+      "description": "Can create a new issue with title and description",
+      "passed": true
+    },
+    {
+      "id": 3,
+      "description": "Issues display in a Kanban board with columns: Backlog, Todo, In Progress, Done",
+      "passed": true
+    },
+    {
+      "id": 4,
+      "description": "Can drag and drop issues between status columns",
+      "passed": true
+    },
+    {
+      "id": 5,
+      "description": "Can set issue priority (Urgent, High, Medium, Low, No Priority)",
+      "passed": true
+    },
+    {
+      "id": 6,
+      "description": "Issues show priority indicator with appropriate color coding",
+      "passed": true
+    },
+    {
+      "id": 7,
+      "description": "Can click on an issue to view/edit its details in a side panel",
+      "passed": true
+    },
+    {
+      "id": 8,
+      "description": "Issues persist in localStorage so they survive page refresh",
+      "passed": true
+    },
+    {
+      "id": 9,
+      "description": "Can delete an issue",
+      "passed": true
+    },
+    {
+      "id": 10,
+      "description": "Keyboard shortcut 'C' opens new issue form",
+      "passed": true
+    }
+  ]
+}
